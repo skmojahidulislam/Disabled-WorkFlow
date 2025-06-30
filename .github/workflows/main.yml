@@ -1,0 +1,13 @@
+name: Disabled WorkFlow 
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  Disabled:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Disabled WorkFlow
+        run: echo "Disabled WorkFlow"
